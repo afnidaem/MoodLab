@@ -21,9 +21,9 @@ def show():
     }
 
     .about-title {
+        color: #059669 !important;
         font-size: 32px;
         font-weight: 700;
-        color: #1a1a1a;
         margin-bottom: 20px;
     }
 
@@ -79,6 +79,7 @@ def show():
 
     .tech-title {
         font-size: 20px;
+        color: #059669;
         font-weight: 700;
         margin-bottom: 20px;
     }
@@ -91,6 +92,7 @@ def show():
     }
 
     .tech-item-title {
+        color: #059669;
         font-weight: 700;
         font-size: 15px;
     }

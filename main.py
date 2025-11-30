@@ -226,9 +226,19 @@ with st.sidebar:
         st.session_state.page = "Tentang"
         st.rerun()
 
-    st.markdown("---")
-    st.markdown("**Mata Kuliah:** Pembelajaran Mesin")
-    st.markdown("**Program Studi:** Teknik Informatika ITERA")
+    st.markdown("---", unsafe_allow_html=True)
+
+    st.markdown("""
+    <style>
+    .black-text {
+        color: #6b7280 !important;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+    st.markdown('<p class="black-text"><b>Mata Kuliah:</b> Pembelajaran Mesin</p>', unsafe_allow_html=True)
+    st.markdown('<p class="black-text"><b>Program Studi:</b> Teknik Informatika ITERA</p>', unsafe_allow_html=True)
+
 
 # =========================
 # ROUTING HALAMAN
@@ -253,7 +263,7 @@ st.markdown("""
     width: 100%;
     padding: 18px 0;
     text-align: center;
-    color: #6b7280;
+    color: #6b7280;E0E0E0
     font-size: 14px;
     margin-top: 50px;
 }
